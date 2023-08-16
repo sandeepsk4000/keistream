@@ -29,7 +29,8 @@ class PlaylistModel {
   int? playlistId;
   @HiveField(1)
   String? name;
-  PlaylistModel({required this.name,this.playlistId});
+  PlaylistModel({required this.name,this.playlistId
+  });
 }
 
 @HiveType(typeId: 4)
